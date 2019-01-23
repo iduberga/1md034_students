@@ -1,9 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DELI-VERY</title>
+        <title>BurgerHeaven</title>
+        <meta charset="utf-8"/>
     </head>
-    <body>
-        <h1>Hello World!!!</h1>
+      <body>
+        <main>
+            <h1>Welcome to BurgerHeaven online</h1>
+
+          <section>
+            <h2>Select a burger</h2>
+            <div>This where you make the burger selection</div>
+            <table>
+                <thead>
+                    <tr>
+                      <th>Classic Burger</th>
+                      <th>Double Chicken Burger</th>
+                      <th>Texas Burger</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="https://bastardburgers.se/wp-content/uploads/2019/01/v-thebastard.jpg"width="250">
+                    <td><img src="https://bastardburgers.se/wp-content/uploads/2018/05/v-ayianapa.jpg" width="250">
+                    <td><img src="https://bastardburgers.se/wp-content/uploads/2019/01/v-texas.jpg" width="250">
+                    <td></ul>
+                  </tr>
+                  <tr>
+                    <ul>
+                        <td><li>600 kCal</li>
+                        <td><li>800 kCal</li>
+                        <td><li>900 kCal</li>
+                    </ul>
+                  </tr>
+                  <tr>
+                    <ul>
+                        <td><li>Contains gluten</li>
+                        <td><li>Contains gluten</li>
+                        <td><li>Contains gluten</li>
+                    </ul>
+                  <tr>
+                  <tr>
+                    <ul>
+                        <td><li>Contains lactose</li>
+                        <td>
+                        <td><li>Contains lactose</li>
+                    </ul>
+                </tbody>
+              </table>
+              <br>
+              <label for="Hamburger">Hamburger</label><br>
+              <select id="Hamburger" name="burger">
+                  <option>Classic burger</option>
+                  <option>Double Chicken</option>
+                  <option>Texas Burger</option>
+              </select>
+
+          <section>
+            <h2>Customer information</h2>
+            <div>This where you provide necessary information</div>
+            <section id="contact">
+                <form>
+                  <p>
+                      <label for="firstname">First</label><br>
+                      <input type="text" id="firstname" name="fn" required="required" placeholder="First name">
+                  </p>
+                  <p>
+                      <label for="lastname">Last</label><br>
+                      <input type="text" id="lastname" name="ln" placeholder="Last name">
+                  </p>
+                  <p>
+                      <label for="email">Email</label><br>
+                      <input type="text" id="email" name="em" required="required" placeholder="E-mail address">
+                  </p>
+                  <p>
+                      <label for="street">Street</label><br>
+                      <input type="text" id="street" name="str" required="required" placeholder="Street name">
+                  </p>
+                  <p>
+                      <label for="house number">House</label><br>
+                      <input type="number" id="house nr" name="h nr" required="required" placeholder="House number">
+                  </p>
+                  <p>
+                      <label for="Payment">Payment options</label><br>
+                      <select id="Payment" name="pay">
+                          <option>Credit card</option>
+                          <option>Debit card</option>
+                          <option>Swish</option>
+                          <option>Cash</option>
+                          <option>Paypal</option>
+                      </select>
+                  </p>
+                  <p>
+                      <label for="gender">Gender</label><br>
+                      <input type="radio" name="gender" value="male"> Male<br>
+                      <input type="radio" name="gender" value="female"> Female<br>
+                      <input type="radio" name="gender" value="non-binary"> Non-Binary<br>
+                      <input type="radio" name="gender" value="undisclosed" checked="checked"> Undisclosed<br>
+                  </p>
+                </form>
+        </section>
+          <div class="style7" align="left">
+            <input type="image" name="submit" src="https://www.freeiconspng.com/uploads/submit-button-png-5.png" border="0" alt="Submit" style="width: 90px;" />
+          </div>
+</main>
+        <footer><hr><footer>
+        <footer>© 2018 Hypothetical Burger Inc</footer>
     </body>
 </html>
