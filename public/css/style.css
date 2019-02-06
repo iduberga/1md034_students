@@ -1,0 +1,90 @@
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+body {
+    background-color: #F4F4F4F4;
+    font-family: Dosis;
+    font-size: 25px;
+}
+
+footer{
+  font-size: 15px;
+}
+
+.burger-grid {
+     display: grid;
+     grid-gap: 0px;
+ }
+
+ .box {
+     border-radius: 0px;
+     padding: 20px;
+ }
+
+ .a {
+     grid-column: 1;
+     grid-row: 1;
+ }
+ .b {
+     grid-column: 2;
+     grid-row: 1;
+ }
+ .c {
+     grid-column: 3;
+     grid-row: 1;
+ }
+ .d{
+   grid-column: 4;
+   grid-row: 1;
+ }
+
+
+.website{
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.header{
+  font-size: 40px;
+  margin: 0 auto;
+  max-width: 1024px;
+  opacity:1;
+  z-index: 0;
+}
+
+.header-img{
+  z-index: -1;
+  top: -2px;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.cust-form{
+    border: 1px dashed #969696;
+    background-color: #d8d8d8;
+    margin-top: 10px;
+}
+
+#ingredients {
+    font-weight: bold;
+}
+#kCal{
+  color: #ff5500;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+button {
+  border: none;
+  background-color: #969696;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #6d6d6d;
+}
