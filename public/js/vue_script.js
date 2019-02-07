@@ -13,9 +13,6 @@ var vm = new Vue({
   methods:{
       order: function(){
         this.orderResult = form();
-        if(orderResult.fn.length!=0 && orderResult.ln.length!=0 &&  orderResult.em.length!=0 && orderResult.str.length!=0 && orderResult.nr.length!=0){
-          alert("Order made!");
-        }
     }
   }
 })

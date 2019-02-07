@@ -57,6 +57,7 @@ function form() {
         alert("Please fill out all fields!")
     }
     else {
+      alert("Order made!");
       return {"fn":firstName, "ln":lastName, "em":email, "str":street, "nr":housenr, "pay":payment, "gen":gender, "burg":burger};
     }
 }
